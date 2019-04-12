@@ -13,7 +13,20 @@
       body{
         font-family:"Dokdo-Regular";
       }
+      .bgimage{
+        background-image: url('img/cute.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .nava:hover{
+        background-color: black;
+      }
+      .nava1:hover{
+        background-color: grey;
+        color: white;
+      }
     </style>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <div class="container-fluid  ">
@@ -26,25 +39,25 @@
         </div>
         <div class="col-xl-7  text-white mx-auto mt-2 " >
           <nav class="navbar navbar-expand navbar-dark bg-dark text-nowrap d-flex align-items-center" >
-            <a class="navbar-brand" href="#">Navbar Name</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <a class="nava navbar-brand" href="#">Navbar Name</a>
+            <button class="nava navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=" navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarsExample02">
-              <ul class="navbar-nav mr-auto">
+              <ul class=" navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">djieji <span class="sr-only">(cnennce)</span></a>
+                  <a class=" nava nav-link" href="#">djieji <span class="sr-only">(cnennce)</span></a>
                 </li>
                  <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   <a class="nava nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      Dropdown
                    </a>
                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="#">Action</a>
-                     <a class="dropdown-item" href="#">Another action</a>
+                     <a class="nava1 dropdown-item" href="#">Action</a>
+                     <a class="nava1 dropdown-item" href="#">Another action</a>
                      <div class="dropdown-divider"></div>
-                     <a class="dropdown-item" href="#">Something else here</a>
+                     <a class="nava1 dropdown-item" href="#">Something else here</a>
                    </div>
                  </li>
               </ul>
@@ -54,7 +67,7 @@
       </div>
       <!-- content -->
       <div class="row  col-xl-12 mx-auto">
-        <div class="col-xl-11 mx-auto bg-dark mt-5 text-white display-1 d-flex align-items-center justify-content-center" style="width:960px; height:360px;"> 960x360px </div>
+        <div class="bgimage col-xl-11 mx-auto bg-dark mt-5 text-white display-1 d-flex align-items-center justify-content-center" style="width:960px; height:360px;"> 960x360px </div>
 
       </div>
       <div class="row  col-xl-12 mx-auto">
